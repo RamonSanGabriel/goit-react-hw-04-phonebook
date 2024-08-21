@@ -1,11 +1,9 @@
 import PropTypes from 'prop-types';
 
-export const Filter = ({ filter }) => {
+export const Filter = ({ filter, setFilter }) => {
   const handleFilterChange = e => {
-    this.props.setFilter(e.target.value);
+    setFilter(e.target.value);
   };
-
-  // const { filter } = this.state;
 
   return (
     <div>

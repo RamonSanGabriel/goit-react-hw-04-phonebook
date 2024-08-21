@@ -46,7 +46,7 @@ export const ContactForm = ({ contacts, addContact }) => {
   };
 
   return (
-    <form className={css.form} onSubmit={this.handleSubmit}>
+    <form className={css.form} onSubmit={handleSubmit}>
       <label className={css.formField}>
         <p className={css.formLabel}>Name</p>
         <input
